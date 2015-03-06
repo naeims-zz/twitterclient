@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333737421AA93D60009D37F4 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333737401AA93D60009D37F4 /* ComposeViewController.m */; };
+		333737431AA93D60009D37F4 /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333737411AA93D60009D37F4 /* ComposeViewController.xib */; };
+		335D7DA11AA6CC8000E411E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D7DA01AA6CC8000E411E7 /* main.m */; };
+		335D7DA41AA6CC8000E411E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D7DA31AA6CC8000E411E7 /* AppDelegate.m */; };
+		335D7DAC1AA6CC8000E411E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335D7DAB1AA6CC8000E411E7 /* Images.xcassets */; };
+		335D7DAF1AA6CC8000E411E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335D7DAD1AA6CC8000E411E7 /* LaunchScreen.xib */; };
+		335D7DBB1AA6CC8100E411E7 /* twitterclientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D7DBA1AA6CC8100E411E7 /* twitterclientTests.m */; };
+		335D7DC81AA6CDB900E411E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D7DC61AA6CDB900E411E7 /* LoginViewController.m */; };
+		335D7DC91AA6CDB900E411E7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335D7DC71AA6CDB900E411E7 /* LoginViewController.xib */; };
+		335D7DCD1AA6CF9E00E411E7 /* TwitterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D7DCC1AA6CF9E00E411E7 /* TwitterClient.m */; };
+		335D7DD11AA6DA2500E411E7 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D7DD01AA6DA2500E411E7 /* Tweet.m */; };
+		335D7DD41AA6DA3000E411E7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D7DD31AA6DA3000E411E7 /* User.m */; };
+		335D7DD81AA6E6E200E411E7 /* TweetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D7DD61AA6E6E200E411E7 /* TweetsViewController.m */; };
+		335D7DD91AA6E6E200E411E7 /* TweetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335D7DD71AA6E6E200E411E7 /* TweetsViewController.xib */; };
+		335D7DDE1AA6F15200E411E7 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D7DDC1AA6F15200E411E7 /* TweetCell.m */; };
+		335D7DDF1AA6F15200E411E7 /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335D7DDD1AA6F15200E411E7 /* TweetCell.xib */; };
+		33C6599D1AA83FB700A8A3F5 /* UIImageView+NSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C6599C1AA83FB700A8A3F5 /* UIImageView+NSAdditions.m */; };
+		33C659A21AA8456C00A8A3F5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C659A01AA8456C00A8A3F5 /* DetailViewController.m */; };
+		33C659A31AA8456C00A8A3F5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33C659A11AA8456C00A8A3F5 /* DetailViewController.xib */; };
+		8F908D4EC74ACBDF0E430B86 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7C90748ABDDB79BCF6AFAA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335D7DB51AA6CC8100E411E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335D7D931AA6CC8000E411E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335D7D9A1AA6CC8000E411E7;
+			remoteInfo = twitterclient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E7C90748ABDDB79BCF6AFAA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3337373F1AA93D60009D37F4 /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		333737401AA93D60009D37F4 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		333737411AA93D60009D37F4 /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
+		3358E33F0669F7EF118BE508 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		335D7D9B1AA6CC8000E411E7 /* twitterclient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitterclient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335D7D9F1AA6CC8000E411E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335D7DA01AA6CC8000E411E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		335D7DA21AA6CC8000E411E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		335D7DA31AA6CC8000E411E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		335D7DAB1AA6CC8000E411E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		335D7DAE1AA6CC8000E411E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		335D7DB41AA6CC8100E411E7 /* twitterclientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitterclientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		335D7DB91AA6CC8100E411E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335D7DBA1AA6CC8100E411E7 /* twitterclientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twitterclientTests.m; sourceTree = "<group>"; };
+		335D7DC51AA6CDB900E411E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		335D7DC61AA6CDB900E411E7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		335D7DC71AA6CDB900E411E7 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		335D7DCB1AA6CF9E00E411E7 /* TwitterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterClient.h; sourceTree = "<group>"; };
+		335D7DCC1AA6CF9E00E411E7 /* TwitterClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterClient.m; sourceTree = "<group>"; };
+		335D7DCF1AA6DA2500E411E7 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		335D7DD01AA6DA2500E411E7 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		335D7DD21AA6DA3000E411E7 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		335D7DD31AA6DA3000E411E7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		335D7DD51AA6E6E200E411E7 /* TweetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetsViewController.h; sourceTree = "<group>"; };
+		335D7DD61AA6E6E200E411E7 /* TweetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetsViewController.m; sourceTree = "<group>"; };
+		335D7DD71AA6E6E200E411E7 /* TweetsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetsViewController.xib; sourceTree = "<group>"; };
+		335D7DDB1AA6F15200E411E7 /* TweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCell.h; sourceTree = "<group>"; };
+		335D7DDC1AA6F15200E411E7 /* TweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
+		335D7DDD1AA6F15200E411E7 /* TweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetCell.xib; sourceTree = "<group>"; };
+		33C6599B1AA83FB700A8A3F5 /* UIImageView+NSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NSAdditions.h"; sourceTree = "<group>"; };
+		33C6599C1AA83FB700A8A3F5 /* UIImageView+NSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NSAdditions.m"; sourceTree = "<group>"; };
+		33C6599F1AA8456C00A8A3F5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		33C659A01AA8456C00A8A3F5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		33C659A11AA8456C00A8A3F5 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		EC808102CCD0ACE4247A7160 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335D7D981AA6CC8000E411E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F908D4EC74ACBDF0E430B86 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335D7DB11AA6CC8100E411E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335D7D921AA6CC8000E411E7 = {
+			isa = PBXGroup;
+			children = (
+				335D7D9D1AA6CC8000E411E7 /* twitterclient */,
+				335D7DB71AA6CC8100E411E7 /* twitterclientTests */,
+				335D7D9C1AA6CC8000E411E7 /* Products */,
+				FDE68E62C030A990733B35C4 /* Pods */,
+				C053BABF8FD4C0E5D6C6EBC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		335D7D9C1AA6CC8000E411E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335D7D9B1AA6CC8000E411E7 /* twitterclient.app */,
+				335D7DB41AA6CC8100E411E7 /* twitterclientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335D7D9D1AA6CC8000E411E7 /* twitterclient */ = {
+			isa = PBXGroup;
+			children = (
+				33C6599E1AA83FC200A8A3F5 /* Categories */,
+				335D7DDA1AA6F13500E411E7 /* Views */,
+				335D7DCE1AA6DA1500E411E7 /* Models */,
+				335D7DCA1AA6CE3A00E411E7 /* API */,
+				335D7DC41AA6CD9E00E411E7 /* ViewControllers */,
+				335D7DA21AA6CC8000E411E7 /* AppDelegate.h */,
+				335D7DA31AA6CC8000E411E7 /* AppDelegate.m */,
+				335D7DAB1AA6CC8000E411E7 /* Images.xcassets */,
+				335D7DAD1AA6CC8000E411E7 /* LaunchScreen.xib */,
+				335D7D9E1AA6CC8000E411E7 /* Supporting Files */,
+			);
+			path = twitterclient;
+			sourceTree = "<group>";
+		};
+		335D7D9E1AA6CC8000E411E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				335D7D9F1AA6CC8000E411E7 /* Info.plist */,
+				335D7DA01AA6CC8000E411E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		335D7DB71AA6CC8100E411E7 /* twitterclientTests */ = {
+			isa = PBXGroup;
+			children = (
+				335D7DBA1AA6CC8100E411E7 /* twitterclientTests.m */,
+				335D7DB81AA6CC8100E411E7 /* Supporting Files */,
+			);
+			path = twitterclientTests;
+			sourceTree = "<group>";
+		};
+		335D7DB81AA6CC8100E411E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				335D7DB91AA6CC8100E411E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		335D7DC41AA6CD9E00E411E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				335D7DC51AA6CDB900E411E7 /* LoginViewController.h */,
+				335D7DC61AA6CDB900E411E7 /* LoginViewController.m */,
+				335D7DC71AA6CDB900E411E7 /* LoginViewController.xib */,
+				335D7DD51AA6E6E200E411E7 /* TweetsViewController.h */,
+				335D7DD61AA6E6E200E411E7 /* TweetsViewController.m */,
+				335D7DD71AA6E6E200E411E7 /* TweetsViewController.xib */,
+				33C6599F1AA8456C00A8A3F5 /* DetailViewController.h */,
+				33C659A01AA8456C00A8A3F5 /* DetailViewController.m */,
+				33C659A11AA8456C00A8A3F5 /* DetailViewController.xib */,
+				3337373F1AA93D60009D37F4 /* ComposeViewController.h */,
+				333737401AA93D60009D37F4 /* ComposeViewController.m */,
+				333737411AA93D60009D37F4 /* ComposeViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		335D7DCA1AA6CE3A00E411E7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				335D7DCB1AA6CF9E00E411E7 /* TwitterClient.h */,
+				335D7DCC1AA6CF9E00E411E7 /* TwitterClient.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		335D7DCE1AA6DA1500E411E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				335D7DCF1AA6DA2500E411E7 /* Tweet.h */,
+				335D7DD01AA6DA2500E411E7 /* Tweet.m */,
+				335D7DD21AA6DA3000E411E7 /* User.h */,
+				335D7DD31AA6DA3000E411E7 /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		335D7DDA1AA6F13500E411E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				335D7DDB1AA6F15200E411E7 /* TweetCell.h */,
+				335D7DDC1AA6F15200E411E7 /* TweetCell.m */,
+				335D7DDD1AA6F15200E411E7 /* TweetCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		33C6599E1AA83FC200A8A3F5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				33C6599B1AA83FB700A8A3F5 /* UIImageView+NSAdditions.h */,
+				33C6599C1AA83FB700A8A3F5 /* UIImageView+NSAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		C053BABF8FD4C0E5D6C6EBC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E7C90748ABDDB79BCF6AFAA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDE68E62C030A990733B35C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3358E33F0669F7EF118BE508 /* Pods.debug.xcconfig */,
+				EC808102CCD0ACE4247A7160 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335D7D9A1AA6CC8000E411E7 /* twitterclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335D7DBE1AA6CC8100E411E7 /* Build configuration list for PBXNativeTarget "twitterclient" */;
+			buildPhases = (
+				A4A1B53566D49ADA5516CC1A /* Check Pods Manifest.lock */,
+				335D7D971AA6CC8000E411E7 /* Sources */,
+				335D7D981AA6CC8000E411E7 /* Frameworks */,
+				335D7D991AA6CC8000E411E7 /* Resources */,
+				9D7E7A437D1ED95EBD604AF3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twitterclient;
+			productName = twitterclient;
+			productReference = 335D7D9B1AA6CC8000E411E7 /* twitterclient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		335D7DB31AA6CC8100E411E7 /* twitterclientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335D7DC11AA6CC8100E411E7 /* Build configuration list for PBXNativeTarget "twitterclientTests" */;
+			buildPhases = (
+				335D7DB01AA6CC8100E411E7 /* Sources */,
+				335D7DB11AA6CC8100E411E7 /* Frameworks */,
+				335D7DB21AA6CC8100E411E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335D7DB61AA6CC8100E411E7 /* PBXTargetDependency */,
+			);
+			name = twitterclientTests;
+			productName = twitterclientTests;
+			productReference = 335D7DB41AA6CC8100E411E7 /* twitterclientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335D7D931AA6CC8000E411E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = naeim;
+				TargetAttributes = {
+					335D7D9A1AA6CC8000E411E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					335D7DB31AA6CC8100E411E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 335D7D9A1AA6CC8000E411E7;
+					};
+				};
+			};
+			buildConfigurationList = 335D7D961AA6CC8000E411E7 /* Build configuration list for PBXProject "twitterclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335D7D921AA6CC8000E411E7;
+			productRefGroup = 335D7D9C1AA6CC8000E411E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335D7D9A1AA6CC8000E411E7 /* twitterclient */,
+				335D7DB31AA6CC8100E411E7 /* twitterclientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335D7D991AA6CC8000E411E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335D7DD91AA6E6E200E411E7 /* TweetsViewController.xib in Resources */,
+				33C659A31AA8456C00A8A3F5 /* DetailViewController.xib in Resources */,
+				335D7DDF1AA6F15200E411E7 /* TweetCell.xib in Resources */,
+				335D7DAF1AA6CC8000E411E7 /* LaunchScreen.xib in Resources */,
+				333737431AA93D60009D37F4 /* ComposeViewController.xib in Resources */,
+				335D7DAC1AA6CC8000E411E7 /* Images.xcassets in Resources */,
+				335D7DC91AA6CDB900E411E7 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335D7DB21AA6CC8100E411E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D7E7A437D1ED95EBD604AF3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A1B53566D49ADA5516CC1A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335D7D971AA6CC8000E411E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335D7DCD1AA6CF9E00E411E7 /* TwitterClient.m in Sources */,
+				335D7DA41AA6CC8000E411E7 /* AppDelegate.m in Sources */,
+				335D7DD41AA6DA3000E411E7 /* User.m in Sources */,
+				335D7DD11AA6DA2500E411E7 /* Tweet.m in Sources */,
+				33C6599D1AA83FB700A8A3F5 /* UIImageView+NSAdditions.m in Sources */,
+				33C659A21AA8456C00A8A3F5 /* DetailViewController.m in Sources */,
+				335D7DA11AA6CC8000E411E7 /* main.m in Sources */,
+				335D7DC81AA6CDB900E411E7 /* LoginViewController.m in Sources */,
+				333737421AA93D60009D37F4 /* ComposeViewController.m in Sources */,
+				335D7DD81AA6E6E200E411E7 /* TweetsViewController.m in Sources */,
+				335D7DDE1AA6F15200E411E7 /* TweetCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335D7DB01AA6CC8100E411E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335D7DBB1AA6CC8100E411E7 /* twitterclientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		335D7DB61AA6CC8100E411E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335D7D9A1AA6CC8000E411E7 /* twitterclient */;
+			targetProxy = 335D7DB51AA6CC8100E411E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		335D7DAD1AA6CC8000E411E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335D7DAE1AA6CC8000E411E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335D7DBC1AA6CC8100E411E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		335D7DBD1AA6CC8100E411E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335D7DBF1AA6CC8100E411E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3358E33F0669F7EF118BE508 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = twitterclient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		335D7DC01AA6CC8100E411E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC808102CCD0ACE4247A7160 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = twitterclient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		335D7DC21AA6CC8100E411E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = twitterclientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twitterclient.app/twitterclient";
+			};
+			name = Debug;
+		};
+		335D7DC31AA6CC8100E411E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = twitterclientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twitterclient.app/twitterclient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335D7D961AA6CC8000E411E7 /* Build configuration list for PBXProject "twitterclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335D7DBC1AA6CC8100E411E7 /* Debug */,
+				335D7DBD1AA6CC8100E411E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335D7DBE1AA6CC8100E411E7 /* Build configuration list for PBXNativeTarget "twitterclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335D7DBF1AA6CC8100E411E7 /* Debug */,
+				335D7DC01AA6CC8100E411E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335D7DC11AA6CC8100E411E7 /* Build configuration list for PBXNativeTarget "twitterclientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335D7DC21AA6CC8100E411E7 /* Debug */,
+				335D7DC31AA6CC8100E411E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335D7D931AA6CC8000E411E7 /* Project object */;
+}
